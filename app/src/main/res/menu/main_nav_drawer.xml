@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/side_nav_btn1"
+            android:icon="@drawable/share_icon"
+            android:title="Share With Friends" />
+        <item
+            android:id="@+id/side_nav_btn2"
+            android:icon="@drawable/rateus_icon"
+            android:title="Rate Us, Motivate Us" />
+        <item
+            android:id="@+id/side_nav_btn3"
+            android:icon="@drawable/feedback"
+            android:title="Send Feedback" />
+
+    </group>
+    <item android:title="Other Apps">
+        <menu>
+            <item
+                android:id="@+id/otherapp1"
+                android:icon="@drawable/logo1"
+                android:title="Spoken English" />
+        </menu>
+    </item>
+</menu>

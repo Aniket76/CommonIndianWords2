@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tip_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Fast Learning "
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/josefinsans_bold"
+            />
+
+        <TextView
+            android:id="@+id/tip_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Listen the Pronunciation, anytime, anywhere."
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/josefinsans_regular"
+            />
+
+
+        <ImageView
+            android:id="@+id/tip_img"
+            android:src="@drawable/login_wt4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

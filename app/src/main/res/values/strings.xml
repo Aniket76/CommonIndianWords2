@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Common English Vocabulary</string>
+    <string name="ad_unit_id_banner">ca-app-pub-9180372532679866/7933468218</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+</resources>

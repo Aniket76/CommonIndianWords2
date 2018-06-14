@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "904035195997",
+    "firebase_url": "https://commonindianwords.firebaseio.com",
+    "project_id": "commonindianwords",
+    "storage_bucket": "commonindianwords.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904035195997:android:a72743bf83c0d063",
+        "android_client_info": {
+          "package_name": "com.aniketvishal.commonindianwords"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904035195997-kj8tilb24sh4preu5lck0qvo5b93g1hs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aniketvishal.commonindianwords",
+            "certificate_hash": "482f773c19bb3d06913dcafb1866a616ae050ed0"
+          }
+        },
+        {
+          "client_id": "904035195997-sacilouq2l99a1ufvmegcdqle74t9729.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aniketvishal.commonindianwords",
+            "certificate_hash": "783e9d23ff30fb2d3b6935bcade944c9158b3534"
+          }
+        },
+        {
+          "client_id": "904035195997-l7f1mvso9s8d4ogv32ks0c5gar0m00an.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aniketvishal.commonindianwords",
+            "certificate_hash": "e6a48adaf8858dfb59fa8751e81a0a2db3072dd1"
+          }
+        },
+        {
+          "client_id": "904035195997-7v7hoef3leaimgcnpllvm8vnqq33mbru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aniketvishal.commonindianwords",
+            "certificate_hash": "92e18bb8c12622dc7254796f6e925203cf316bc5"
+          }
+        },
+        {
+          "client_id": "904035195997-cudrutnpvdfr1bbuo7qv6i85qnf12mhg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHpktCRPsxn0TJyFNmBBb6uf20cXKqe9A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904035195997-cudrutnpvdfr1bbuo7qv6i85qnf12mhg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

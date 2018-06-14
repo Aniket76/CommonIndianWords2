@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aniketvishal.commonindianwords.WordListActivity">
+
+    <include
+        android:id="@+id/status_page_toolbar"
+        layout="@layout/app_bar_layout"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/all_word_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/status_page_toolbar"
+        android:layout_above="@+id/wordlist_adView"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/wordlist_adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/ad_unit_id_banner">
+    </com.google.android.gms.ads.AdView>
+
+    <LinearLayout
+        android:id="@+id/oops_layout"
+        android:visibility="gone"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Oops!"
+            android:fontFamily="@font/josefinsans_bold"
+            android:textSize="100sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Word is Added to Favourites"
+            android:fontFamily="@font/josefinsans_regular"
+            android:textSize="24sp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
